@@ -91,6 +91,7 @@ hr {
 
 .navigation.link-active {
     font-weight: bold;
+    text-decoration: underline;
     margin: 1px;
     margin-bottom: 3px;
 }
