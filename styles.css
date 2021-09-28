@@ -3,7 +3,7 @@
 :root {
     --primary-color: #93C5FD;
     --dary-gray: #4B5563;
-    --off-white: #eaedf1;
+    --off-white: #f9fbfd;
 }
 
 body {
@@ -25,8 +25,9 @@ hr {
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 60%;
     margin: auto;
+    border-radius: 1rem;
 }
 
 /** For Links **/
@@ -89,11 +90,12 @@ hr {
     text-align: right;
 }
 
-.navigation.link-active {
+.link-active {
     font-weight: bold;
     text-decoration: underline;
     margin: 1px;
     margin-bottom: 3px;
+    color: var(--dary-gray);
 }
 
 /** Header **/
@@ -131,6 +133,9 @@ hr {
 
 .section {
     padding: 2rem;
+    max-width: 60%;
+    margin: auto;
+    border-radius: 1rem;    
 }
 
 /** Footer **/
